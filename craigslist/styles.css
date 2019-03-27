@@ -1,0 +1,36 @@
+body {
+  background: white;
+  color: #222;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background: red;
+  width: 95vw;
+  height: 100vh;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.sidebar,
+main,
+.language {
+  display: flex;
+}
+
+
+
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+
+footer {
+  background: blue;
+  margin: auto;
+  width: 95vw;
+}
